@@ -1,6 +1,3 @@
-# coatakehomechallenge
-
-
 ## TASK ONE: HTML, CSS & JAVASCRIPT
 
 ## Features
@@ -11,11 +8,24 @@
 
 ![Screenshot of Desktop View](./images/Screenshot%20(144).png)
 
-## Installation
+# JavaScript Coding Challenges
+
+This repository contains solutions to the following JavaScript coding challenges:
+
+1. **Array Manipulation:** Determine if there exists a contiguous subarray within the array that sums up to the target.
+2. **String Transformation:** Transform the given string based on specific rules.
+
+
+## Installation And Run
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/BenIraa/coatakehomechallenge.git
+- Run the Index.html for challenge one
 
+- Open the project in Visual Studio Code
 
-
+- Open Terminal, go to challenges and run This Command to se the Ruselt of Each Challenges
+   ```bash
+   node arrayMap.js
+   node stringTransform.js
