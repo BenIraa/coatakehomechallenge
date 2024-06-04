@@ -18,7 +18,7 @@ This repository contains solutions to the following JavaScript coding challenges
 
 ## Installation And Run
 
-1. Clone the repository:
+- Clone the repository:
    ```bash
    git clone https://github.com/BenIraa/coatakehomechallenge.git
 - Run the Index.html for challenge one
