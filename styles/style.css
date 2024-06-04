@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Nunito', sans-serif; /* Set the default font to Nunito */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -33,7 +33,7 @@ main {
     height: 100%;
     object-fit: cover; /* Maintain aspect ratio and cover the area */
     display: block;
-    transition: filter 0.3s ease; /* Transition for the blur effect */
+    transition: filter 0.3s ease; /* Transition for the blur and black and white effect */
 }
 
 .gallery-item .details {
@@ -45,14 +45,21 @@ main {
     transition: transform 0.3s ease; /* Add transition for moving up */
 }
 
-.gallery-item .details h2,
+.gallery-item .details h2 {
+    font-family: 'Lexend', sans-serif; /* Set the font for the title to Lexend */
+    font-size: 1.5em;
+    line-height: 1.2;
+    margin-bottom: 10px; /* Add padding between the title and subtitle */
+}
+
 .gallery-item .details p {
-    margin: 0;
+    font-size: 12px;
+    margin-bottom: 15px; /* Add padding below the subtitle */
 }
 
 .gallery-item .details .know-more {
     display: none; /* Hide initially */
-    color: blue;
+    color: #3da9fc;
     font-size: 1em;
     margin-top: 10px;
 }
@@ -63,7 +70,7 @@ main {
 }
 
 .gallery-item:hover img {
-    filter: blur(4px); /* Blur effect on hover */
+    filter: blur(4px) grayscale(100%); /* Blur and make the image black and white on hover */
 }
 
 .gallery-item:hover .details {
