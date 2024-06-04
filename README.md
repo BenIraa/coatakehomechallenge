@@ -25,7 +25,9 @@ This repository contains solutions to the following JavaScript coding challenges
 
 - Open the project in Visual Studio Code
 
-- Open Terminal, go to challenges and run This Command to se the Ruselt of Each Challenges
+- Open Terminal, go to challenges and run This Command to se the Ruselt of 1st Challenges
    ```bash
    node arrayMap.js
+- Open Terminal, go to challenges and run This Command to se the Ruselt of 2nd Challenges
+  ```bash
    node stringTransform.js
