@@ -10,7 +10,7 @@
 
 
 ![Screenshot of Desktop View](./images/Screenshot%20(144).png)
-![Screenshot of Mobile view](./images/Screenshot%20(146).png)
+
 ## Installation
 
 1. Clone the repository:
