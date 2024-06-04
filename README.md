@@ -5,7 +5,7 @@
 - Hover effects with blur and grayscale
 - Font styling with Lexend and Nunito
 
-## Run Taskone Without Installation
+## Run Task one Without Installation
 [Interactive Photo Challenge](https://beniraa.github.io/coatakehomechallenge/)
 
 
